@@ -8,7 +8,7 @@
 	
 	<version>0.0.1-SNAPSHOT</version> 
 	
-	<name>liontech-web-app</name>
+	<name>liontech-web-app-version-2.0</name>
 
 	<description>Maven Web Project for Java Project</description>
 
@@ -22,9 +22,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://54.144.201.162:9000/ </sonar.host.url>
-		<sonar.login>admin</sonar.login>  
-		<sonar.login> 056824318dee949f38e0ff6d8f696600deea5a86</sonar.login>
+		<sonar.host.url>http://52.91.71.51:9000/ </sonar.host.url>
+		<sonar.login>cloudsec</sonar.login>  
+		<sonar.login>eadb1d41988249ec90db6552769cf442d933c2ef</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
@@ -96,13 +96,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>LION TECH ACADEMY Releases Nexus Repository</name>
-	      <url> http://44.202.139.87:8081/repository/01jun16-repo/</url>
+	      <url>http://52.91.254.51:8081/repository/jenkins-automation-demo2-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>LION TECH ACADEMY Snapshot Nexus Repository </name>
-	      <url> http://44.202.139.87:8081/repository/02june16-snapshot/</url>
+	      <url>http://52.91.254.51:8081/repository/jenkins-automation-demo2-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
